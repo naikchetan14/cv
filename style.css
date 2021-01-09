@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/night.png);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bree Serif', serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 15px;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.chetan{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+    padding: 0px;
+    border-radius: 200px;
+}
+.s{
+    margin: 100px;
+}
+h3{
+    font-size: 2.1rem;
+    
+}
+img{
+    width: 10px;
+}
+p{
+    font-size: 19px;
+}
+.c{
+    
+  margin: 20px auto;
+  width: 100%;
+}
+.c h2{
+    font-size: 1.9rem;
+    margin: 10;
+}
